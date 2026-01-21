@@ -3,11 +3,14 @@ Superadmin HRM Frontend
 A modern React-based Human Resource Management (HRM) system frontend built with Vite, designed for superadmin functionality with comprehensive package management, user administration, and coupon management features.
 
 🚀 Tech Stack
+
 React 18 - Modern React with hooks
 Vite - Fast build tool and development server
 Yup - Schema validation for forms
 ESLint - Code linting and formatting
+
 📋 Features
+
 Package Management
 Create and manage subscription packages
 Configure pricing for different currencies (INR/USD)
@@ -41,6 +44,8 @@ npm run dev
 Build for production
 
 npm run build
+
+
 📁 Project Structure
 Superadmin_hrm_frontend/
 ├── src/
@@ -51,10 +56,12 @@ Superadmin_hrm_frontend/
 ├── package.json
 └── README.md
 🔧 Available Scripts
+
 npm run dev - Start development server with HMR
 npm run build - Build for production
 npm run preview - Preview production build
 npm run lint - Run ESLint
+
 📝 Form Schemas
 The project includes comprehensive validation schemas for:
 
@@ -68,7 +75,9 @@ Conditional Validation: Different rules for free vs paid plans
 Date Validation: Ensures logical date ranges for coupons and offers
 Percentage Validation: Proper bounds checking for discount percentages
 String Validation: Alphanumeric checks and length constraints
+
 🔒 Validation Rules
+
 Package Validation
 Plan names: 3-50 characters
 Descriptions: 10-80 characters
@@ -79,17 +88,22 @@ Coupon Validation
 Percentage: 0-100% range
 Date ranges: To date must be after from date
 Package selection: Required field
+
 🚦 Development Guidelines
+
 Form Validation: Always use the provided Yup schemas for form validation
 Error Handling: Implement proper error messages for user feedback
 Code Style: Follow ESLint rules for consistent code formatting
 Component Structure: Keep components modular and reusable
+
 🤝 Contributing
+
 Fork the repository
 Create a feature branch (git checkout -b feature/new-feature)
 Commit your changes (git commit -am 'Add new feature')
 Push to the branch (git push origin feature/new-feature)
 Create a Pull Request
+
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
